@@ -10,3 +10,5 @@ cv2.line(image, (200, 0), (0, 100), (0, 0, 255), 1)
 cv2.imshow("Yellow", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite("Images/2.bmp", image)

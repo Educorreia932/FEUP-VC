@@ -9,3 +9,5 @@ cv2.line(image, (200, 0), (0, 100), (255, 255, 255), 1)
 cv2.imshow("Grayscale", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite("Images/1.bmp", image)

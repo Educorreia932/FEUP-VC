@@ -12,3 +12,5 @@ while True:
   
 video.release()
 cv2.destroyAllWindows()
+
+cv2.imwrite("Images/1.jpg", frame)

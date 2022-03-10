@@ -21,7 +21,7 @@ def salt_and_pepper(image, prob):
 
     return output
 
-filename = "zappa_lain.jpg"
+filename = "Images/lizard.jpg"
 image = cv2.imread(filename, 1)
 image_with_noise= salt_and_pepper(image, 0.05)
 
@@ -29,3 +29,5 @@ cv2.imshow("Image with noise", image_with_noise)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite("Images/4.bmp", image_with_noise)

@@ -1,2 +1,6 @@
 data/
-*.pth
+images/
+annotations/
+
+# PyTorch objects
+*.pth 
